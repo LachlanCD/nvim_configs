@@ -23,6 +23,9 @@ return {
         -- JavaScript + TypeScript
         null_ls.builtins.formatting.prettier,
         require("none-ls.diagnostics.eslint"),
+
+        null_ls.builtins.diagnostics.golangci_lint,
+        null_ls.builtins.formatting.goimports_reviser,
       },
     })
 

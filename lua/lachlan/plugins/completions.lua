@@ -19,7 +19,6 @@ return {
       local cmp = require("cmp")
       require("luasnip.loaders.from_vscode").lazy_load()
       local cmp_select = { behavior = cmp.SelectBehavior.Select }
-      local luasnip = require("luasnip")
 
       cmp.setup({
         snippet = {

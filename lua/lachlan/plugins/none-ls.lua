@@ -12,11 +12,6 @@ return {
         null_ls.builtins.formatting.stylua,
 
         -- Python
-        -- null_ls.builtins.diagnostics.pylint.with({
-        --  diagnostics_postprocess = function(diagnostic)
-        --     diagnostic.code = diagnostic.message_id
-        --   end,
-        -- }),
         null_ls.builtins.formatting.black,
         null_ls.builtins.formatting.isort,
 
